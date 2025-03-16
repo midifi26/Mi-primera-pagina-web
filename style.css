@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background-color: aliceblue;
+    padding:20px;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: wheat;
+}
+
+#cabecera{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap:4rem;
+}
+
+nav a{
+   font-weight: 600px;
+}
+
+nav a:hover{
+background-color:white ;
+}
+
+section h3{
+    color:red;
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.5em;
+   text-align:center;
+}
+section p{
+    font-size: 50px;
+}
+nav div{
+    float:right;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    font-size:2em
+
+}
+
+img{
+    display: flex;
+    height:650px;
+    width:670px;
+    padding:10px;
+    justify-items: center;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:75px;
+    color: rgb(185, 30, 30);
+    align-content: space-around;
+    text-align: center;
+}
+
+article ul{
+    float:right;
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    width: 670px;
+    font-size: 2.5em;
+    list-style: none;
+    margin:0;
+
+}
+.imagenes h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra las imágenes */
+    gap: 10px; /* Espacio entre las imágenes */
+}
+
+        #imagenes img{
+    width: 100%; 
+    max-width: 200px; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+#contacto {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#contactanos {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+#contactanos p {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1em;
+    margin: 10px 0 5px;
+    display: block;
+
+}

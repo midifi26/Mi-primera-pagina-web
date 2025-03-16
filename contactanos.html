@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Contactanos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html">BIOGRAFIA</a></li>
+                <li><a href="portfolio.html">PORFOLIO</a></li>
+                <li><a href="contactanos.html">CONTACTO</a></li>
+            </ul> 
+        </nav>
+    </header>
+    <section id="contacto">
+        <form id="contactanos">
+            <p>CONTACTANOS</p>
+            <label for="name">Nombre</label><input type="text"  placeholder="Nombre..." required>
+            <label for="apellido">Apellido</label><input type="text"  placeholder="Apellido..."required>
+            <label for="email">Correo</label><input type="text"  placeholder="correo" required>
+            <label for="numero">Telefono</label><input type="number" max = 11 placeholder="000-000-000" required>
+            <label for="fecha">Escoje dia</label><input type="date" >
+            <label for="mensaje">Comentanos tu caso.</label><textarea placeholder="Mensaje" rows="10" cols="50"></textarea>
+
+            <input type = "checkbox" value="si"><label>Acepta recibir publicidad</label>
+            <label>¿Ya nos habias contactado?</label>
+            <label>Si</label><input type="radio" value="si">
+            <label>No</label><input type="radio" value="no">
+            <button type="submit" value="enviar">Enviar</button>
+
+        </form>
+    </section>
+</body>
+</html>
